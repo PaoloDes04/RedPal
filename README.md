@@ -3,6 +3,10 @@
 
 ---
 
+<img width="4009" height="2256" alt="image" src="https://github.com/user-attachments/assets/a1e0fd12-4c04-45ec-87e6-93373503efe6" />
+
+
+
 ## 🎮 Project Overview
 **RedPal** is an engaging 2D iOS arcade and action game built natively with **Swift**, **SwiftUI**, and **SpriteKit**. 
 
@@ -21,6 +25,9 @@ The application was designed, prototyped, and engineered in an agile team enviro
 - 🎨 **Retro Pixel-Art Aesthetic:** Custom visual identity, sprite sheets, sound effects, and custom typography (`PressStart2P`).
 
 ---
+
+<img width="4010" height="2256" alt="image" src="https://github.com/user-attachments/assets/8e565baf-d68e-472b-931a-aa9f9b90d837" />
+
 
 ## 🛠️ Tech Stack & Architecture
 
