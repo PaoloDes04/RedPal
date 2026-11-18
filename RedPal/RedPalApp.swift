@@ -1,32 +1,24 @@
-//
-//  RedPalApp.swift
-//  RedPal
-//
-//  Created by Gianmarco Montella on 17/10/25.
-//
+//Per i Font in debug
 
 import SwiftUI
-import SwiftData
+import UIKit // esplicito per UIFont (iOS/iPadOS)
 
 @main
 struct RedPalApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
+    init() {
+        #if DEBUG
+        // Stampa i font disponibili solo in Debug
+        for family in UIFont.familyNames.sorted() {
+            let names = UIFont.fontNames(forFamilyName: family)
+            print("Famiglia: \(family) --- Nomi dei Font: \(names)")
         }
-    }()
+        #endif
+    }
 
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
-        .modelContainer(sharedModelContainer)
     }
 }
