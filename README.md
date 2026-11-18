@@ -56,6 +56,6 @@ The application was designed, prototyped, and engineered in an agile team enviro
 
 ## 👨‍💻 Author & Academic Context
 
-- **Author:** Paolo Desiderio ([GitHub Profile](https://github.com/PaoloDes04)) Gabriele Quintiliani, Francesco Ambrosio, Vincenzo Mataluna, Maksym Semenkov, Giammarco montella
+- **Authors:** Paolo Desiderio ([GitHub Profile](https://github.com/PaoloDes04)) Gabriele Quintiliani, Francesco Ambrosio, Vincenzo Mataluna, Maksym Semenkov, Giammarco montella
 - **Program:** Apple Foundation Program, Basic Course (80 Hours)
 - **Institution:** Università degli Studi di Napoli "Parthenope"
